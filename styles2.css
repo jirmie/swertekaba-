@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D4AF37;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 6em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+}
