@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="testurluck" content="width=device-width, initial-scale=1.0">
+    <title>itcc101</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="text-container"></div>
+    <h1>Let's test your luck! </h1>
+    </div>
+    <div>
+        <a href="choice1.html">
+            <img src="angpao.png" alt="Image 1">
+        </a>
+    </div>
+
+    <div>
+        <a href="choice2.html">
+            <img src="angpao.png" alt="Image 2">
+        </a>
+    </div>
+
+    <div>
+        <a href="choice3.html">
+            <img src="angpao.png" alt="Image 3">
+        </a>
+    </div>
+
+    <div>
+        <a href="choice4.html">
+            <img src="angpao.png" alt="Image 4">
+        </a>
+
+    <audio id="audioPlayer" controls>
+        <source src="happynewyear.mp3" type="audio/mp3">
+    </audio>
+
+    <button class="play-pause-button" onclick="togglePlayPause()">Play / Pause</button>
+
+    <script>
+        function togglePlayPause() {
+            var audio = document.getElementById('audioPlayer');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+</body>
+</html>
